@@ -7,14 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A27BBE51C108C810065A2FB /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A27BBDE1C108C810065A2FB /* OpenSans-Bold.ttf */; };
+		2A27BBE61C108C810065A2FB /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A27BBDF1C108C810065A2FB /* OpenSans-ExtraBold.ttf */; };
+		2A27BBE71C108C810065A2FB /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A27BBE01C108C810065A2FB /* OpenSans-Italic.ttf */; };
+		2A27BBE81C108C810065A2FB /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A27BBE11C108C810065A2FB /* OpenSans-Light.ttf */; };
+		2A27BBE91C108C810065A2FB /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A27BBE21C108C810065A2FB /* OpenSans-LightItalic.ttf */; };
+		2A27BBEA1C108C810065A2FB /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A27BBE31C108C810065A2FB /* OpenSans-Regular.ttf */; };
+		2A27BBEB1C108C810065A2FB /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A27BBE41C108C810065A2FB /* OpenSans-Semibold.ttf */; };
+		2A27BBED1C109B9B0065A2FB /* DeviceScanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27BBEC1C109B9B0065A2FB /* DeviceScanVC.swift */; };
+		2A27BBEF1C10AA200065A2FB /* DeviceInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27BBEE1C10AA200065A2FB /* DeviceInfoVC.swift */; };
 		2A34734F1C0DDBF40014DA09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A34734E1C0DDBF40014DA09 /* AppDelegate.swift */; };
 		2A3473511C0DDBF40014DA09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3473501C0DDBF40014DA09 /* ViewController.swift */; };
 		2A3473541C0DDBF40014DA09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3473521C0DDBF40014DA09 /* Main.storyboard */; };
 		2A3473561C0DDBF40014DA09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3473551C0DDBF40014DA09 /* Assets.xcassets */; };
 		2A3473591C0DDBF40014DA09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3473571C0DDBF40014DA09 /* LaunchScreen.storyboard */; };
+		2A3473651C0DF9D80014DA09 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3473641C0DF9D80014DA09 /* DataService.swift */; };
+		2A3473671C0DFC770014DA09 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3473661C0DFC770014DA09 /* Customer.swift */; };
+		2A3473691C0DFC880014DA09 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3473681C0DFC880014DA09 /* Device.swift */; };
+		2A34736B1C0DFCCB0014DA09 /* Sail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A34736A1C0DFCCB0014DA09 /* Sail.swift */; };
+		2A34736D1C0E0B780014DA09 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A34736C1C0E0B780014DA09 /* MaterialButton.swift */; };
+		2A3473701C0E0BAD0014DA09 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A34736F1C0E0BAD0014DA09 /* Constants.swift */; };
+		2A3473761C0E0E1F0014DA09 /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3473751C0E0E1F0014DA09 /* UIView+Borders.swift */; };
+		2A3473781C0E2AAD0014DA09 /* NewCustomerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3473771C0E2AAD0014DA09 /* NewCustomerVC.swift */; };
+		2A34737A1C0E38350014DA09 /* CustomerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3473791C0E38350014DA09 /* CustomerList.swift */; };
+		2A34737C1C0E39A60014DA09 /* CustomersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A34737B1C0E39A60014DA09 /* CustomersVC.swift */; };
+		2A4CDA0F1C173972004320E5 /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4CDA0E1C173972004320E5 /* DeviceCell.swift */; };
+		2A53F1BF1C1B248D0013990B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A53F1BE1C1B248D0013990B /* MainVC.swift */; };
+		2A6AE4F81C1A5863004251CA /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AE4F71C1A5863004251CA /* MaterialView.swift */; };
+		2A6AE4FA1C1A7074004251CA /* EventEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AE4F91C1A7074004251CA /* EventEntryVC.swift */; };
+		2AC9AE551C19C5AD008CE195 /* SailDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC9AE541C19C5AD008CE195 /* SailDetailsVC.swift */; };
+		2AE2C14F1C41609E00667C0F /* CustomerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2C14E1C41609E00667C0F /* CustomerCell.swift */; };
+		2AE2C1511C41627F00667C0F /* CustomerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE2C1501C41627F00667C0F /* CustomerDetailsVC.swift */; };
+		52A8CDD511BBC667856A8E7E /* Pods_Quantum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C8F55370AE6475F39CBF9E /* Pods_Quantum.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D9441FDA39FCFE98695A0DA /* Pods-Quantum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quantum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quantum/Pods-Quantum.debug.xcconfig"; sourceTree = "<group>"; };
+		2A27BBDE1C108C810065A2FB /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		2A27BBDF1C108C810065A2FB /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2A27BBE01C108C810065A2FB /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		2A27BBE11C108C810065A2FB /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		2A27BBE21C108C810065A2FB /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		2A27BBE31C108C810065A2FB /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		2A27BBE41C108C810065A2FB /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		2A27BBEC1C109B9B0065A2FB /* DeviceScanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceScanVC.swift; sourceTree = "<group>"; };
+		2A27BBEE1C10AA200065A2FB /* DeviceInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfoVC.swift; sourceTree = "<group>"; };
 		2A34734B1C0DDBF40014DA09 /* Quantum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quantum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A34734E1C0DDBF40014DA09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A3473501C0DDBF40014DA09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +59,25 @@
 		2A3473551C0DDBF40014DA09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A3473581C0DDBF40014DA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A34735A1C0DDBF40014DA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3473641C0DF9D80014DA09 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		2A3473661C0DFC770014DA09 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		2A3473681C0DFC880014DA09 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		2A34736A1C0DFCCB0014DA09 /* Sail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sail.swift; sourceTree = "<group>"; };
+		2A34736C1C0E0B780014DA09 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		2A34736F1C0E0BAD0014DA09 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2A3473751C0E0E1F0014DA09 /* UIView+Borders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Borders.swift"; sourceTree = "<group>"; };
+		2A3473771C0E2AAD0014DA09 /* NewCustomerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCustomerVC.swift; sourceTree = "<group>"; };
+		2A3473791C0E38350014DA09 /* CustomerList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerList.swift; sourceTree = "<group>"; };
+		2A34737B1C0E39A60014DA09 /* CustomersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomersVC.swift; sourceTree = "<group>"; };
+		2A4CDA0E1C173972004320E5 /* DeviceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
+		2A53F1BE1C1B248D0013990B /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		2A6AE4F71C1A5863004251CA /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		2A6AE4F91C1A7074004251CA /* EventEntryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventEntryVC.swift; sourceTree = "<group>"; };
+		2AC9AE541C19C5AD008CE195 /* SailDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SailDetailsVC.swift; sourceTree = "<group>"; };
+		2AE2C14E1C41609E00667C0F /* CustomerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerCell.swift; sourceTree = "<group>"; };
+		2AE2C1501C41627F00667C0F /* CustomerDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerDetailsVC.swift; sourceTree = "<group>"; };
+		51C8F55370AE6475F39CBF9E /* Pods_Quantum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quantum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C461F81DE591150DB2AA6D0F /* Pods-Quantum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quantum.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quantum/Pods-Quantum.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +85,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A8CDD511BBC667856A8E7E /* Pods_Quantum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A27BBDD1C108C5C0065A2FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A27BBDE1C108C810065A2FB /* OpenSans-Bold.ttf */,
+				2A27BBDF1C108C810065A2FB /* OpenSans-ExtraBold.ttf */,
+				2A27BBE01C108C810065A2FB /* OpenSans-Italic.ttf */,
+				2A27BBE11C108C810065A2FB /* OpenSans-Light.ttf */,
+				2A27BBE21C108C810065A2FB /* OpenSans-LightItalic.ttf */,
+				2A27BBE31C108C810065A2FB /* OpenSans-Regular.ttf */,
+				2A27BBE41C108C810065A2FB /* OpenSans-Semibold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2A3473421C0DDBF40014DA09 = {
 			isa = PBXGroup;
 			children = (
 				2A34734D1C0DDBF40014DA09 /* Quantum */,
 				2A34734C1C0DDBF40014DA09 /* Products */,
+				9497E893FCFE2C7A4CD028F3 /* Pods */,
+				DA904103A73A5EAA640D38D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +127,91 @@
 		2A34734D1C0DDBF40014DA09 /* Quantum */ = {
 			isa = PBXGroup;
 			children = (
+				2A27BBDD1C108C5C0065A2FB /* Resources */,
+				2A34736E1C0E0B9F0014DA09 /* Utilities */,
+				2A3473631C0DF9C10014DA09 /* Services */,
+				2A3473601C0DF9970014DA09 /* Model */,
+				2A3473611C0DF99D0014DA09 /* View */,
+				2A3473621C0DF9A40014DA09 /* Controller */,
 				2A34734E1C0DDBF40014DA09 /* AppDelegate.swift */,
-				2A3473501C0DDBF40014DA09 /* ViewController.swift */,
 				2A3473521C0DDBF40014DA09 /* Main.storyboard */,
 				2A3473551C0DDBF40014DA09 /* Assets.xcassets */,
 				2A3473571C0DDBF40014DA09 /* LaunchScreen.storyboard */,
 				2A34735A1C0DDBF40014DA09 /* Info.plist */,
+				2A3473751C0E0E1F0014DA09 /* UIView+Borders.swift */,
 			);
 			path = Quantum;
+			sourceTree = "<group>";
+		};
+		2A3473601C0DF9970014DA09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A3473661C0DFC770014DA09 /* Customer.swift */,
+				2A3473681C0DFC880014DA09 /* Device.swift */,
+				2A34736A1C0DFCCB0014DA09 /* Sail.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2A3473611C0DF99D0014DA09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A34736C1C0E0B780014DA09 /* MaterialButton.swift */,
+				2A3473791C0E38350014DA09 /* CustomerList.swift */,
+				2A4CDA0E1C173972004320E5 /* DeviceCell.swift */,
+				2A6AE4F71C1A5863004251CA /* MaterialView.swift */,
+				2AE2C14E1C41609E00667C0F /* CustomerCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2A3473621C0DF9A40014DA09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A3473501C0DDBF40014DA09 /* ViewController.swift */,
+				2A3473771C0E2AAD0014DA09 /* NewCustomerVC.swift */,
+				2A34737B1C0E39A60014DA09 /* CustomersVC.swift */,
+				2A27BBEC1C109B9B0065A2FB /* DeviceScanVC.swift */,
+				2A27BBEE1C10AA200065A2FB /* DeviceInfoVC.swift */,
+				2AC9AE541C19C5AD008CE195 /* SailDetailsVC.swift */,
+				2A6AE4F91C1A7074004251CA /* EventEntryVC.swift */,
+				2A53F1BE1C1B248D0013990B /* MainVC.swift */,
+				2AE2C1501C41627F00667C0F /* CustomerDetailsVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2A3473631C0DF9C10014DA09 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2A3473641C0DF9D80014DA09 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		2A34736E1C0E0B9F0014DA09 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2A34736F1C0E0BAD0014DA09 /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		9497E893FCFE2C7A4CD028F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D9441FDA39FCFE98695A0DA /* Pods-Quantum.debug.xcconfig */,
+				C461F81DE591150DB2AA6D0F /* Pods-Quantum.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA904103A73A5EAA640D38D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51C8F55370AE6475F39CBF9E /* Pods_Quantum.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A34735D1C0DDBF40014DA09 /* Build configuration list for PBXNativeTarget "Quantum" */;
 			buildPhases = (
+				317D656CDB6F26EEFE95AFD9 /* Check Pods Manifest.lock */,
 				2A3473471C0DDBF40014DA09 /* Sources */,
 				2A3473481C0DDBF40014DA09 /* Frameworks */,
 				2A3473491C0DDBF40014DA09 /* Resources */,
+				76D9DEE5B6BF0EF5548902BA /* Embed Pods Frameworks */,
+				FF8521056F039BF8E380EE7A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,19 +277,93 @@
 			files = (
 				2A3473591C0DDBF40014DA09 /* LaunchScreen.storyboard in Resources */,
 				2A3473561C0DDBF40014DA09 /* Assets.xcassets in Resources */,
+				2A27BBE81C108C810065A2FB /* OpenSans-Light.ttf in Resources */,
+				2A27BBE51C108C810065A2FB /* OpenSans-Bold.ttf in Resources */,
+				2A27BBEB1C108C810065A2FB /* OpenSans-Semibold.ttf in Resources */,
+				2A27BBE71C108C810065A2FB /* OpenSans-Italic.ttf in Resources */,
 				2A3473541C0DDBF40014DA09 /* Main.storyboard in Resources */,
+				2A27BBE91C108C810065A2FB /* OpenSans-LightItalic.ttf in Resources */,
+				2A27BBEA1C108C810065A2FB /* OpenSans-Regular.ttf in Resources */,
+				2A27BBE61C108C810065A2FB /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		317D656CDB6F26EEFE95AFD9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76D9DEE5B6BF0EF5548902BA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quantum/Pods-Quantum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF8521056F039BF8E380EE7A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quantum/Pods-Quantum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A3473471C0DDBF40014DA09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A3473651C0DF9D80014DA09 /* DataService.swift in Sources */,
+				2AE2C1511C41627F00667C0F /* CustomerDetailsVC.swift in Sources */,
+				2A34736D1C0E0B780014DA09 /* MaterialButton.swift in Sources */,
+				2A27BBED1C109B9B0065A2FB /* DeviceScanVC.swift in Sources */,
 				2A3473511C0DDBF40014DA09 /* ViewController.swift in Sources */,
 				2A34734F1C0DDBF40014DA09 /* AppDelegate.swift in Sources */,
+				2A3473671C0DFC770014DA09 /* Customer.swift in Sources */,
+				2A27BBEF1C10AA200065A2FB /* DeviceInfoVC.swift in Sources */,
+				2A3473781C0E2AAD0014DA09 /* NewCustomerVC.swift in Sources */,
+				2AC9AE551C19C5AD008CE195 /* SailDetailsVC.swift in Sources */,
+				2A4CDA0F1C173972004320E5 /* DeviceCell.swift in Sources */,
+				2A34736B1C0DFCCB0014DA09 /* Sail.swift in Sources */,
+				2A3473691C0DFC880014DA09 /* Device.swift in Sources */,
+				2A53F1BF1C1B248D0013990B /* MainVC.swift in Sources */,
+				2A3473701C0E0BAD0014DA09 /* Constants.swift in Sources */,
+				2A34737A1C0E38350014DA09 /* CustomerList.swift in Sources */,
+				2A6AE4FA1C1A7074004251CA /* EventEntryVC.swift in Sources */,
+				2A34737C1C0E39A60014DA09 /* CustomersVC.swift in Sources */,
+				2A3473761C0E0E1F0014DA09 /* UIView+Borders.swift in Sources */,
+				2A6AE4F81C1A5863004251CA /* MaterialView.swift in Sources */,
+				2AE2C14F1C41609E00667C0F /* CustomerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +451,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Bart (J9L4K2PSDE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michael Bart (J9L4K2PSDE)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -247,23 +475,29 @@
 		};
 		2A34735E1C0DDBF40014DA09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9441FDA39FCFE98695A0DA /* Pods-Quantum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Quantum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.CodeMountain.Quantum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2A34735F1C0DDBF40014DA09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C461F81DE591150DB2AA6D0F /* Pods-Quantum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Bart (J9L4K2PSDE)";
 				INFOPLIST_FILE = Quantum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.CodeMountain.Quantum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -286,6 +520,7 @@
 				2A34735F1C0DDBF40014DA09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
